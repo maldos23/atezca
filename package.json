@@ -1,7 +1,7 @@
 {
   "name": "atezca-workspace",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "description": "AI-powered E2E testing library with natural language syntax",
   "workspaces": [
     "packages/*"
@@ -20,7 +20,11 @@
     "natural-language",
     "test-automation"
   ],
-  "author": "",
+  "author": {
+    "name": "maldos23",
+    "email": "2344766+maldos23@users.noreply.github.com",
+    "url": "https://github.com/maldos23/atezca"
+  },
   "license": "MIT",
   "engines": {
     "node": ">=18.0.0",
