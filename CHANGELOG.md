@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.0] - 2026-02-14
+
+### Added
+- Vitest unit test suite for `@atezca/core`
+
+### Changed
+- npm publish GitHub Action now uses `pnpm` and runs unit tests before publishing
+
 ## [1.0.0] - 2026-02-14
 
 ### Added
@@ -90,7 +98,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - ✅ Configuration system
 - ✅ Examples and documentation
 
-[Unreleased]: https://github.com/maldos23/atezca/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/maldos23/atezca/compare/v1.1.0...HEAD
+[1.1.0]: https://github.com/maldos23/atezca/compare/v1.0.0...v1.1.0
 [1.0.0]: https://github.com/maldos23/atezca/compare/v0.2.0...v1.0.0
 [0.2.0]: https://github.com/maldos23/atezca/compare/v0.1.0...v0.2.0
 [0.1.0]: https://github.com/maldos23/atezca/releases/tag/v0.1.0
