@@ -1,6 +1,6 @@
 {
   "name": "@atezca/core",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "description": "AI-powered E2E testing library with natural language syntax",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
