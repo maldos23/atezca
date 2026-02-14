@@ -1,0 +1,23 @@
+# Source files
+src/
+tests/
+*.test.ts
+*.spec.ts
+
+# Config files
+tsconfig.json
+tsup.config.ts
+.eslintrc*
+.prettierrc*
+
+# Development
+examples/
+docs/
+.github/
+
+# Environment
+.env
+.env.*
+
+# Cache
+*.cache.json

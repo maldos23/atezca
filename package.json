@@ -1,0 +1,29 @@
+{
+  "name": "atezca-workspace",
+  "version": "0.1.0",
+  "private": true,
+  "description": "AI-powered E2E testing library with natural language syntax",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "pnpm -r build",
+    "test": "pnpm -r test",
+    "dev": "pnpm -r dev",
+    "clean": "pnpm -r clean && rm -rf node_modules"
+  },
+  "keywords": [
+    "testing",
+    "e2e",
+    "playwright",
+    "ai",
+    "natural-language",
+    "test-automation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  }
+}
