@@ -11,7 +11,7 @@ jobs:
   publish-npm:
     runs-on: ubuntu-latest
     env:
-      NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      NODE_AUTH_TOKEN: "${{ secrets.NPM_TOKEN }}"
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -27,6 +27,7 @@ jobs:
       - run: pnpm build
         working-directory: packages/core
       - name: Configure npm auth
-        run: echo "//registry.npmjs.org/:_authToken=${NODE_AUTH_TOKEN}" > ~/.npmrc
+        run: |
+          echo "//registry.npmjs.org/:_authToken=${NODE_AUTH_TOKEN}" > ~/.npmrc
       - run: pnpm publish --no-git-checks --access public
         working-directory: packages/core
