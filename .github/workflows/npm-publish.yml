@@ -28,5 +28,5 @@ jobs:
         working-directory: packages/core
       - name: Configure npm auth
         run: echo "//registry.npmjs.org/:_authToken=${NODE_AUTH_TOKEN}" > ~/.npmrc
-      - run: pnpm publish --no-git-checks
+      - run: pnpm publish --no-git-checks --access public
         working-directory: packages/core
